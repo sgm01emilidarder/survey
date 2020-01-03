@@ -51,8 +51,8 @@ public class EnquestaFormacioServlet extends HttpServlet {
 		String respostaPreg2 = request.getParameter("pregunta-2");
 		
 		// Configuram llista de preguntes
-		Pregunta preg1 = new Pregunta("Quin partit polític creus que guanyarà a les próximes eleccions?", respostaPreg1);
-		Pregunta preg2 = new Pregunta("Quin partit t'agradaria que guanyàs?", respostaPreg2);
+		Pregunta preg1 = new Pregunta("Quin seria el lloc de feina o àrea en el que t'agradaria especialitzar-te?", respostaPreg1);
+		Pregunta preg2 = new Pregunta("Quin curs t'agradaria realitzar per millorar la teva formació?", respostaPreg2);
 		
 		HashSet<Pregunta> llistaPreguntes = new HashSet<Pregunta>();
 		llistaPreguntes.add(preg1);
