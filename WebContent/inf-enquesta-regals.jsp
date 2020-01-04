@@ -47,7 +47,7 @@
     </section>
 
     <section class="ml-3">
-        <h3>Observacions <img src="https://www.stickpng.com/assets/images/59cfc4d2d3b1936210a5ddc7.png" alt="" style="width: 1.2vw ; height: 1.2vw"></h3>
+        <h3>Joc alternatiu <img src="https://www.urjc.es/images/facultades/etsii/logosgrados/5.videojuegos.png" alt="" style="width: 2vw ; height: 2vw"></h3>
         <c:out value="${enquesta.observacions}"/>
     </section>
 </div>
